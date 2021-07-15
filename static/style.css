@@ -1,0 +1,81 @@
+body{
+    
+font-family: 'Inter', sans-serif;
+margin: 0;
+color: #fff;
+
+}
+
+.container{
+    max-width: 428px;
+    margin: 0 auto; 
+    background-color: #313438;
+    min-height: 100vh;
+}
+
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    color: #fff;
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(2,171,228,1) 87%, rgba(19,192,237,1) 94%, rgba(0,212,255,1) 100%);
+     padding: 2cm 0;
+     align-items: center;
+}
+.contact-search{
+    font-size: 1.2em;
+    padding: .3em;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    outline: none;
+}
+i{
+    font-size: 1.5em;
+}
+
+.contact-name{
+    font-size: 1.2em;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+hr{
+    border: 2px solid #494a4b;
+}
+
+.list__item{
+   list-style: none; 
+}
+
+.relationship{
+    width: 6em;
+        text-align: center;
+        padding: .4em .5em;
+        border-radius: 100px;
+        border-top-left-radius: 0;
+        background-color: #0cb4ecef;
+        font-size: .8em;
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+}
+
+.contact-section:hover{
+    background-color: #48494a;
+}
+.text{
+    padding-left: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #fff; 
+}
